@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                background-color: hsl(73, 80%, 65%);
+            }
+            body{
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                padding: 15px;
+                border: 1px rgb(113, 214, 250);
+                border-radius: 5px;
+            }
+            input{
+                margin: 5px 0px;
+                height: 35px;
+                padding: 7px;
+            }
+            button{
+                height: 35px;
+                width:250px;
+                margin: 5px opx;
+                background-color: hsl(172, 86%, 62%);
+                border-radius:5px ;
+                color: hsl(0, 33%, 1%);
+            }
+            button:hover{
+                background-color: #333;
+                color: aquamarine;
+            }
+        </style>
+        
+        <title>login from in HTML and CSS | Codehal</title>
+        <link rel="stylesheet" href="style.css"><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <from action="">
+             <h1 style="background-color: rgb(207, 243, 241); color: brown;">LOGIN HERE</h1>
+             <br>
+                <div class="input-box">
+                    <input type="text" placeholder="username" required>
+                    <i class='bx bxs-user'></i>
+
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="remember-forgot">
+                    <lable><input type="checkbox"> remember me</lable>
+                    <a href="#">forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn">login</button>
+                <div class="register-link">
+                    <p>don't have an account? <a herf="#">register</a></p>
+                </div>
+            </from>
+        </div>
+    </body>
